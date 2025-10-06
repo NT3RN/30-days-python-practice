@@ -12,3 +12,8 @@ print (type(1 + 3j))
 print(type('Nafim Niloy'))
 print(type([1,2,3,4]))
 print(type({'name':'Nafim'}))
+print(type({9.8, 3.24, 2.7}))
+print(type((9.8, 3.14, 2.7)))
+print(type(3 == 3))
+print(type(3 > 3))
+
