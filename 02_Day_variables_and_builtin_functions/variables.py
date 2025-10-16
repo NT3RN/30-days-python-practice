@@ -36,3 +36,20 @@ remainder = num_one % num_two
 print("Remainder: ", remainder)
 floor_division = num_one // num_two
 print("Floor division: ", floor_division)
+
+# circle problem
+r = 30
+area_of_circle = 3.14*r**2
+print(area_of_circle)
+circum_of_circle = 2*3.14*r
+print(circum_of_circle)
+r = input('What is the radius of your cicle? ')
+area_of_circle = 3.14*int(r)**2
+print(area_of_circle)
+
+#problem 13
+usrFirstName = input('What is your firstname? ')
+usrLastName = input ('What is your lastname? ')
+usrCountry = input ('Input the country name: ')
+usrAge = input ('Insert your age: ')
+print('User name',usrLastName, usrLastName, 'Country:', usrCountry,'Age', usrAge)
