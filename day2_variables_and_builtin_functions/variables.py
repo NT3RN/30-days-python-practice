@@ -25,13 +25,14 @@ num_one = 5
 num_two = 4
 
 total = num_one + num_two
-print(total)
+print("Total: ",total)
 diff = num_one - num_two
-print(diff)
+print("Difference: ",diff)
 product = num_one * num_two
-print('Product'+product)
+print("Product: ", product)
 division = num_one / num_two
-print('Division:'+division)
+print("Divisiron: ",division)
 remainder = num_one % num_two
-
+print("Remainder: ", remainder)
 floor_division = num_one // num_two
+print("Floor division: ", floor_division)
