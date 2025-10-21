@@ -23,6 +23,4 @@ sliced_food = food_stuff_tp[0:5] + food_stuff_tp[6:]
 print(sliced_food)
 del food_stuff_tp
 #print(food_stuff_tp) tuple doesnt exists after delete
-
-exists = 'banana' in sliced_food
-print(exists)
+print("Does banana exists in sliced_food? ",'banana' in sliced_food)
