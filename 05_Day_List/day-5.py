@@ -52,4 +52,23 @@ print(index)
 fs_copy.insert(index+1, 'Python')
 fs_copy.insert(index+2, 'SQL')
 print(fs_copy)
-#
+
+#exercise level 2
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+ages.sort(reverse=True)
+print(ages)
+ages.sort()
+print(ages)
+max_age = max(ages)
+min_age = min(ages)
+avg = sum(ages)/len(ages)
+print('Min age: ', min_age)
+print('Max age: ', max_age)
+print('average :', avg)
+print('Range of ages: ', max_age - min_age)
+index = len(ages)/2 -1
+index = int(index)
+print(index)
+print('Median : ', (ages[index]+ages[index + 1])/2)
+print(abs(min_age - avg))
+print(abs(max_age - avg))
