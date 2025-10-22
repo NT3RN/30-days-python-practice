@@ -22,3 +22,9 @@ print(A.symmetric_difference(B))
 del it_companies, A, B
 
 #Exercise level 3
+ageset = set(age)
+print(ageset)
+print('Age: ', age)
+print('Age set: ', ageset)
+sentense = 'I am a teacher and I love to inspire and teach people'
+print(len(sentense.split(' ')))
