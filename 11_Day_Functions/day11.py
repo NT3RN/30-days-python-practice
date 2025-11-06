@@ -20,3 +20,31 @@ print(addAll(5,5))
 def C2F(c):
     print((c*9/5)+32,'Degree Farenheit')
 C2F(32)
+
+def checkSeason(month):
+    season = {
+        'January': 'Winter',
+        'February':'Winter',
+        'March': 'Spring',
+        'April': 'Spring',
+        'May': 'Spring',
+        'June': 'Summer',
+        'July': 'Summer',
+        'August': 'Summer',
+        'September': 'Fall',
+        'October': 'Fall',
+        'November': 'Fall',
+        'December': 'Winter'
+    }
+    if month in season:
+        print('Season is:', season[month])
+    else:
+        print('Type valid month name')
+checkSeason('August')
+
+def solve_quadratic_eqn(a, b, c):
+    dis = (b**2 - 4*a*c)**.5
+    x1 = (-b + dis)/ (2*a)
+    x2 = (-b - dis)/ (2*a)
+    return x1, x2
+
