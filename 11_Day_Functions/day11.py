@@ -48,3 +48,43 @@ def solve_quadratic_eqn(a, b, c):
     x2 = (-b - dis)/ (2*a)
     return x1, x2
 
+def print_list(list):
+    for l in list:
+        print(l)
+
+def reverse_list(list):
+    r_list = []
+    for l in range(len(list)):  
+        r_list.append(list.pop())
+    return r_list
+
+l = [12,3,4,5]
+print(reverse_list(l))
+
+#Level 3
+def is_prime(num):
+    if num <=1: return False
+    else:
+        for n in range (2,num):
+            if num%n == 0: return False
+            else: return True
+
+print(is_prime(6))
+
+def is_unique(items):
+    return len(items)==len(set(items))
+
+items = [222,453,53,3,3,'a']
+print(is_unique(items))
+
+def is_same(types):
+    type1 = set()
+    for t in types:
+        type1.add(type(t))
+    if len(type1) == 1:
+        return True
+    else:
+        return False
+
+print(is_same(items))
+
