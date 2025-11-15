@@ -20,7 +20,7 @@ def id_gen_by_user():
             id += random.choice(s)
         print(id)
 
-#id_gen_by_user()
+id_gen_by_user()
 
 def rgp_color_gen():
     r = random.randint(0,256)
