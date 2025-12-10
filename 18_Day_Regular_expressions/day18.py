@@ -21,3 +21,4 @@ for w in plistSet:
         outputWord = w
 
 print(outputWord,':', outputFreq)
+#parmu na thik korte icche kortese na 
